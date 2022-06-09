@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/yudo23.github.io/portofolio/static/css/main.ecb38c8d.css",
-    "main.js": "/yudo23.github.io/portofolio/static/js/main.2bc65dcd.js",
-    "static/js/787.b7af92ad.chunk.js": "/yudo23.github.io/portofolio/static/js/787.b7af92ad.chunk.js",
-    "static/media/background.png": "/yudo23.github.io/portofolio/static/media/background.b68bdeada83bcb8b8f98.png",
-    "index.html": "/yudo23.github.io/portofolio/index.html",
-    "main.ecb38c8d.css.map": "/yudo23.github.io/portofolio/static/css/main.ecb38c8d.css.map",
-    "main.2bc65dcd.js.map": "/yudo23.github.io/portofolio/static/js/main.2bc65dcd.js.map",
-    "787.b7af92ad.chunk.js.map": "/yudo23.github.io/portofolio/static/js/787.b7af92ad.chunk.js.map"
+    "main.css": "/portofolio/static/css/main.ecb38c8d.css",
+    "main.js": "/portofolio/static/js/main.b04ad3aa.js",
+    "static/js/787.b7af92ad.chunk.js": "/portofolio/static/js/787.b7af92ad.chunk.js",
+    "static/media/background.png": "/portofolio/static/media/background.b68bdeada83bcb8b8f98.png",
+    "index.html": "/portofolio/index.html",
+    "main.ecb38c8d.css.map": "/portofolio/static/css/main.ecb38c8d.css.map",
+    "main.b04ad3aa.js.map": "/portofolio/static/js/main.b04ad3aa.js.map",
+    "787.b7af92ad.chunk.js.map": "/portofolio/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ecb38c8d.css",
-    "static/js/main.2bc65dcd.js"
+    "static/js/main.b04ad3aa.js"
   ]
 }
