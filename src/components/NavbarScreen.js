@@ -13,7 +13,7 @@ const App = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <NavLink tag={Link} className="nav-link" to="/" activeClassName="active">Homes</NavLink>
+                            <NavLink tag={Link} className="nav-link" to="/" activeClassName="active">Home</NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink tag={Link} className="nav-link" to="/about">About Me</NavLink>
