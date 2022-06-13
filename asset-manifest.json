@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portofolio/static/css/main.3799e9bd.css",
-    "main.js": "/portofolio/static/js/main.074d37ac.js",
+    "main.js": "/portofolio/static/js/main.35426547.js",
     "static/js/787.b7af92ad.chunk.js": "/portofolio/static/js/787.b7af92ad.chunk.js",
     "static/media/khinez-fn-home.png": "/portofolio/static/media/khinez-fn-home.98ffb959d47adadd1bcb.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portofolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/tas.png": "/portofolio/static/media/tas.2830170ebb46aca6edcf.png",
     "static/media/khinez-bn-login.png": "/portofolio/static/media/khinez-bn-login.aa909f471708b1c67031.png",
+    "static/media/eazyDoc-login.png": "/portofolio/static/media/eazyDoc-login.c3adfb34dbcbf72fddb9.png",
     "static/media/greencity-login.png": "/portofolio/static/media/greencity-login.c74755798f255c2a7bb4.png",
     "static/media/fontawesome-webfont.eot": "/portofolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portofolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -23,25 +24,34 @@
     "static/media/cbt-admin.png": "/portofolio/static/media/cbt-admin.ce7bba8caf2237d7f5f5.png",
     "static/media/user_pengaduan_form.png": "/portofolio/static/media/user_pengaduan_form.d4dec47404ee1e8ff0a8.png",
     "static/media/greencity-admin-plainning-2.png": "/portofolio/static/media/greencity-admin-plainning-2.ef43511c25876d9ac4a8.png",
+    "static/media/eazyDoc-admin-docsend.png": "/portofolio/static/media/eazyDoc-admin-docsend.4be4948d1a55fd35b354.png",
     "static/media/greencity-admin-kasbon.png": "/portofolio/static/media/greencity-admin-kasbon.5e3e9d9f43a1ac5ca0db.png",
     "static/media/greencity-admin-cuti.png": "/portofolio/static/media/greencity-admin-cuti.6926da031b7e2a5bd25e.png",
+    "static/media/eazyDoc-employee-notif.png": "/portofolio/static/media/eazyDoc-employee-notif.707e7f26581d76ee5114.png",
     "static/media/greencity-admin-gaji-2.png": "/portofolio/static/media/greencity-admin-gaji-2.a1fafab0bd66516cf4bf.png",
     "static/media/greencity-admin-itemrequest.png": "/portofolio/static/media/greencity-admin-itemrequest.65c9a2df7944ea17903d.png",
     "static/media/background.png": "/portofolio/static/media/background.b68bdeada83bcb8b8f98.png",
     "static/media/cbt-siswa.png": "/portofolio/static/media/cbt-siswa.d9b6616b520281425089.png",
     "static/media/greencity-admin-gaji-3.png": "/portofolio/static/media/greencity-admin-gaji-3.e9530a6b4a2d41eb629a.png",
+    "static/media/css.png": "/portofolio/static/media/css.9f33c557b92e4e2e1cc8.png",
     "static/media/greencity-admin-plainning.png": "/portofolio/static/media/greencity-admin-plainning.49110d598a15fea08814.png",
     "static/media/cbt-guru.png": "/portofolio/static/media/cbt-guru.b662cf7cedf9ef5796b7.png",
+    "static/media/eazyDoc-admin-dashboard.png": "/portofolio/static/media/eazyDoc-admin-dashboard.00e8a726fafe18c4ddc2.png",
+    "static/media/greencity-admin-dashboard.png": "/portofolio/static/media/greencity-admin-dashboard.51749979872e05aab8b3.png",
+    "static/media/eazyDoc-admin-department.png": "/portofolio/static/media/eazyDoc-admin-department.fce3b37c1034ff7e34b8.png",
     "static/media/khinez-bn-dashboard.png": "/portofolio/static/media/khinez-bn-dashboard.ecd0a8665d7c50994d66.png",
+    "static/media/eazyDoc-employee-dashboard.png": "/portofolio/static/media/eazyDoc-employee-dashboard.45995c836834d40c96ca.png",
+    "static/media/html.png": "/portofolio/static/media/html.e77138c4c431579d25d0.png",
     "static/media/login-desa.png": "/portofolio/static/media/login-desa.dd3478c50e72081c7883.png",
+    "static/media/git.png": "/portofolio/static/media/git.dfdd0989ffe0184bdd68.png",
     "static/media/react.png": "/portofolio/static/media/react.d32b912d40b3d8821e47.png",
     "index.html": "/portofolio/index.html",
     "main.3799e9bd.css.map": "/portofolio/static/css/main.3799e9bd.css.map",
-    "main.074d37ac.js.map": "/portofolio/static/js/main.074d37ac.js.map",
+    "main.35426547.js.map": "/portofolio/static/js/main.35426547.js.map",
     "787.b7af92ad.chunk.js.map": "/portofolio/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3799e9bd.css",
-    "static/js/main.074d37ac.js"
+    "static/js/main.35426547.js"
   ]
 }
