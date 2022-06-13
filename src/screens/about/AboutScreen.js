@@ -92,9 +92,9 @@ const App = () => {
                                         </div>
                                         <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
                                             <div className="card">
-                                                <img className="card-img-top" src={require("../../assets/images/skill/php.png")} alt="Card image cap"/>
+                                                <img className="card-img-top" src={require("../../assets/images/skill/bootstrap.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
-                                                    <h7 className="card-title">PHP</h7>
+                                                    <h7 className="card-title">BOOTSTRAP</h7>
                                                 </div>
                                             </div>
                                         </div>
@@ -108,9 +108,9 @@ const App = () => {
                                         </div>
                                         <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
                                             <div className="card">
-                                                <img className="card-img-top" src={require("../../assets/images/skill/bootstrap.png")} alt="Card image cap"/>
+                                                <img className="card-img-top" src={require("../../assets/images/skill/php.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
-                                                    <h7 className="card-title">BOOTSTRAP</h7>
+                                                    <h7 className="card-title">PHP</h7>
                                                 </div>
                                             </div>
                                         </div>
