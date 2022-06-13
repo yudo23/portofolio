@@ -10,6 +10,7 @@ const App = () => {
     const  [isViewerPengaduanOpen,setIsViewerPengaduanOpen] = useState(false);
     const  [isViewerKhinezOpen,setIsViewerKhinezOpen] = useState(false);
     const  [isViewerGreencityOpen,setIsViewerGreencityOpen] = useState(false);
+    const  [isViewerDocOpen,setIsViewerDocOpen] = useState(false);
 
     const images_cbt = [
         require("../../assets/images/portofolio/cbt-admin.png"),
@@ -41,6 +42,7 @@ const App = () => {
 
     const images_greencity = [
         require("../../assets/images/portofolio/greencity-login.png"),
+        require("../../assets/images/portofolio/greencity-admin-dashboard.png"),
         require("../../assets/images/portofolio/greencity-admin-plainning.png"),
         require("../../assets/images/portofolio/greencity-admin-plainning-2.png"),
         require("../../assets/images/portofolio/greencity-admin-kasbon.png"),
@@ -49,6 +51,15 @@ const App = () => {
         require("../../assets/images/portofolio/greencity-admin-gaji.png"),
         require("../../assets/images/portofolio/greencity-admin-gaji-3.png"),
         require("../../assets/images/portofolio/greencity-admin-gaji-2.png"),
+    ];
+
+    const images_doc = [
+        require("../../assets/images/portofolio/eazyDoc-login.png"),
+        require("../../assets/images/portofolio/eazyDoc-admin-dashboard.png"),
+        require("../../assets/images/portofolio/eazyDoc-admin-department.png"),
+        require("../../assets/images/portofolio/eazyDoc-admin-docsend.png"),
+        require("../../assets/images/portofolio/eazyDoc-employee-dashboard.png"),
+        require("../../assets/images/portofolio/eazyDoc-employee-notif.png"),
     ];
 
     const openImageCbtViewer = () => {
@@ -89,6 +100,14 @@ const App = () => {
 
     const closeImageGreencityViewer = () => {
         setIsViewerGreencityOpen(false);
+    }
+
+    const openImageDocViewer = () => {
+        setIsViewerDocOpen(true);
+    }
+
+    const closeImageDocViewer = () => {
+        setIsViewerDocOpen(false);
     }
 
     return (
@@ -137,34 +156,7 @@ const App = () => {
                                     <div className="card">
                                         <img 
                                             className="card-img-top" 
-                                            src={require("../../assets/images/portofolio/tas.png")}
-                                            alt="WEB TOKO ONLINE"
-                                            onClick={() => openImageTasViewer()}
-                                            
-                                        />
-                                        <div className="card-body">
-                                            <p className="card-title text-center">WEB TOKO ONLINE</p>
-                                            <p className="card-text">Website ini merupakan website toko online</p>
-                                        </div>
-                                        {isViewerTasOpen && (
-                                            <ImageViewer
-                                                src={images_tas}
-                                                currentIndex={0}
-                                                onClose={() => closeImageTasViewer()}
-                                                disableScroll={false}
-                                                backgroundStyle={{
-                                                    backgroundColor : "rgba(0,0,0,0.9)"
-                                                }}
-                                                closeOnClickOutside={true}
-                                            />
-                                        )}
-                                    </div>
-                                </div>
-                                <div className="col-md-4 portofolio-container mb-2">
-                                    <div className="card">
-                                        <img 
-                                            className="card-img-top" 
-                                            src={require("../../assets/images/portofolio/pengaduan_user.png")}
+                                            src={require("../../assets/images/portofolio/dashboard_admin.png")}
                                             alt="WEB PENGADUAN DESA"
                                             onClick={() => openImagePengaduanViewer()}
                                             
@@ -218,7 +210,7 @@ const App = () => {
                                     <div className="card">
                                         <img 
                                             className="card-img-top" 
-                                            src={require("../../assets/images/portofolio/greencity-admin-plainning-2.png")}
+                                            src={require("../../assets/images/portofolio/greencity-admin-dashboard.png")}
                                             alt="WEBSITE MANAGEMENT KEGIATAN PERUSAHAAN"
                                             onClick={() => openImageGreencityViewer()}
                                             
@@ -232,6 +224,60 @@ const App = () => {
                                                 src={images_greencity}
                                                 currentIndex={0}
                                                 onClose={() => closeImageGreencityViewer()}
+                                                disableScroll={false}
+                                                backgroundStyle={{
+                                                    backgroundColor : "rgba(0,0,0,0.9)"
+                                                }}
+                                                closeOnClickOutside={true}
+                                            />
+                                        )}
+                                    </div>
+                                </div>
+                                <div className="col-md-4 portofolio-container mb-2">
+                                    <div className="card">
+                                        <img 
+                                            className="card-img-top" 
+                                            src={require("../../assets/images/portofolio/eazyDoc-admin-dashboard.png")}
+                                            alt="WEBSITE PENGIRIMAN DOKUMEN ANTAR INSTANSI"
+                                            onClick={() => openImageDocViewer()}
+                                            
+                                        />
+                                        <div className="card-body">
+                                            <p className="card-title text-center">WEBSITE PENGIRIMAN DOKUMEN ANTAR INSTANSI</p>
+                                            <p className="card-text">Website ini merupakan website pengiriman dokumen antar instansi . Terdiri dari beberapa role yaitu administrator dan employee</p>
+                                        </div>
+                                        {isViewerDocOpen && (
+                                            <ImageViewer
+                                                src={images_doc}
+                                                currentIndex={0}
+                                                onClose={() => closeImageDocViewer()}
+                                                disableScroll={false}
+                                                backgroundStyle={{
+                                                    backgroundColor : "rgba(0,0,0,0.9)"
+                                                }}
+                                                closeOnClickOutside={true}
+                                            />
+                                        )}
+                                    </div>
+                                </div>
+                                <div className="col-md-4 portofolio-container mb-2">
+                                    <div className="card">
+                                        <img 
+                                            className="card-img-top" 
+                                            src={require("../../assets/images/portofolio/tas-admin.png")}
+                                            alt="WEB TOKO ONLINE"
+                                            onClick={() => openImageTasViewer()}
+                                            
+                                        />
+                                        <div className="card-body">
+                                            <p className="card-title text-center">WEB TOKO ONLINE</p>
+                                            <p className="card-text">Website ini merupakan website toko online</p>
+                                        </div>
+                                        {isViewerTasOpen && (
+                                            <ImageViewer
+                                                src={images_tas}
+                                                currentIndex={0}
+                                                onClose={() => closeImageTasViewer()}
                                                 disableScroll={false}
                                                 backgroundStyle={{
                                                     backgroundColor : "rgba(0,0,0,0.9)"

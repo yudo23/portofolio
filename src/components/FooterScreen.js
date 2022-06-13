@@ -5,7 +5,7 @@ const App = () => {
                 <div className='row'>
                     <div className='col-lg-10 footer-left'>
                         <p className='footer-title'>Thank You For Visiting</p>
-                        <p className='footer-text'>Web and Mobile Developer</p>
+                        <p className='footer-text'>Web and Mobile Programmer</p>
                         <p className='footer-copyright'>
                             ©{new Date().getFullYear()} Yudo Dendy Andriansyah
                         </p>

@@ -39,6 +39,10 @@ const App = () => {
                                         <p className="biodata-name">No.Telepon</p>
                                         <p className="biodata-value">085769782106</p>
                                     </div>
+                                    <div className="biodata-container">
+                                        <p className="biodata-name">Alamat</p>
+                                        <p className="biodata-value">Jln.Klengkeng RT02 RW02 , Desa Tambakasri , Kec.Tajinan , Kab.Malang , 65172</p>
+                                    </div>
                                 </div>
                                 <div className="col-lg-6 pendidikan">
                                     <p className="title mb-5">Pendidikan</p>
