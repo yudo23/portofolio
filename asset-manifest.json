@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portofolio/static/css/main.3799e9bd.css",
+    "main.css": "/portofolio/static/css/main.6b0c7956.css",
     "main.js": "/portofolio/static/js/main.61744dd0.js",
     "static/js/787.b7af92ad.chunk.js": "/portofolio/static/js/787.b7af92ad.chunk.js",
     "static/media/khinez-fn-home.png": "/portofolio/static/media/khinez-fn-home.98ffb959d47adadd1bcb.png",
@@ -47,12 +47,12 @@
     "static/media/git.png": "/portofolio/static/media/git.dfdd0989ffe0184bdd68.png",
     "static/media/react.png": "/portofolio/static/media/react.d32b912d40b3d8821e47.png",
     "index.html": "/portofolio/index.html",
-    "main.3799e9bd.css.map": "/portofolio/static/css/main.3799e9bd.css.map",
+    "main.6b0c7956.css.map": "/portofolio/static/css/main.6b0c7956.css.map",
     "main.61744dd0.js.map": "/portofolio/static/js/main.61744dd0.js.map",
     "787.b7af92ad.chunk.js.map": "/portofolio/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3799e9bd.css",
+    "static/css/main.6b0c7956.css",
     "static/js/main.61744dd0.js"
   ]
 }
