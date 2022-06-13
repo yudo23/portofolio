@@ -217,7 +217,7 @@ const App = () => {
                                         />
                                         <div className="card-body">
                                             <p className="card-title text-center">WEBSITE MANAGEMENT KEGIATAN PERUSAHAAN</p>
-                                            <p className="card-text">Website ini merupakan website management kegiatan disuatu perusahaan dan sudah dipakai oleh PT. GREENCITI TEKNOLOGI INDONESIA . Terdiri dari beberapa role yaitu employee,purchasing,manager,general manager,direktur,owner, dan administrator</p>
+                                            <p className="card-text">Website ini merupakan website management kegiatan disuatu perusahaan dan sudah dipakai oleh PT. GREENCITI TEKNOLOGI INDONESIA . Terdiri dari fitur manajemen plainning , kasbon , permintaan barang , dan penggajian . Terdiri dari beberapa role yaitu employee,purchasing,manager,general manager,direktur,owner, dan administrator</p>
                                         </div>
                                         {isViewerGreencityOpen && (
                                             <ImageViewer
