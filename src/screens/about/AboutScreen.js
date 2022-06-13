@@ -54,7 +54,7 @@ const App = () => {
                                             <i className="fa fa-university icon"></i> SDN TAMBAKASRI 01 <span className="lulus">(LULUS)</span>
                                        </p>
                                        <p>
-                                            <i className="fa fa-university icon"></i> SMKN 04 MALANG - RPL <span className="lulus">(LULUS)</span>
+                                            <i className="fa fa-university icon"></i> SMKN 04 MALANG - RPL <span className="lulus">(LULUS 2020)</span>
                                        </p>
                                        <p>
                                             <i className="fa fa-university icon"></i> UNIVERSITAS NEGERI MALANG <span className="lulus">(2021 - Sekarang)</span>
