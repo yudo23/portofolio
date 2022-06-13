@@ -228,17 +228,12 @@ ul.navbar-nav{
 }
 
 .contact-content .detail p .icon{
-    background-color: #f0860c;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 15px;
-    padding-left: 15px;
+    border:2px solid #f0860c;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
     border-radius: 30px;
-    color: white;
-}
-
-.contact-content .detail p .icon:hover{
-    background-color: white;
     color: #f0860c;
 }
 
