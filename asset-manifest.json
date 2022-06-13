@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portofolio/static/css/main.3799e9bd.css",
-    "main.js": "/portofolio/static/js/main.f3ed0f45.js",
+    "main.js": "/portofolio/static/js/main.bbd43218.js",
     "static/js/787.b7af92ad.chunk.js": "/portofolio/static/js/787.b7af92ad.chunk.js",
     "static/media/khinez-fn-home.png": "/portofolio/static/media/khinez-fn-home.98ffb959d47adadd1bcb.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portofolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -18,6 +18,7 @@
     "static/media/dashboard_user_pengaduan.png": "/portofolio/static/media/dashboard_user_pengaduan.9e9628ced50d54a5a23d.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portofolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/user_pengaduan.png": "/portofolio/static/media/user_pengaduan.13c8c91425bf8c3e3281.png",
+    "static/media/php.png": "/portofolio/static/media/php.77043238d3eb4b1c330b.png",
     "static/media/khinez-bn-product.png": "/portofolio/static/media/khinez-bn-product.7ac49b83ea44911eccdb.png",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portofolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/greencity-admin-gaji.png": "/portofolio/static/media/greencity-admin-gaji.211908054e708ce9c23e.png",
@@ -47,11 +48,11 @@
     "static/media/react.png": "/portofolio/static/media/react.d32b912d40b3d8821e47.png",
     "index.html": "/portofolio/index.html",
     "main.3799e9bd.css.map": "/portofolio/static/css/main.3799e9bd.css.map",
-    "main.f3ed0f45.js.map": "/portofolio/static/js/main.f3ed0f45.js.map",
+    "main.bbd43218.js.map": "/portofolio/static/js/main.bbd43218.js.map",
     "787.b7af92ad.chunk.js.map": "/portofolio/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3799e9bd.css",
-    "static/js/main.f3ed0f45.js"
+    "static/js/main.bbd43218.js"
   ]
 }
