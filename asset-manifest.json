@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portofolio/static/css/main.6b0c7956.css",
-    "main.js": "/portofolio/static/js/main.61744dd0.js",
+    "main.js": "/portofolio/static/js/main.91b9a94b.js",
     "static/js/787.b7af92ad.chunk.js": "/portofolio/static/js/787.b7af92ad.chunk.js",
     "static/media/khinez-fn-home.png": "/portofolio/static/media/khinez-fn-home.98ffb959d47adadd1bcb.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portofolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -15,6 +15,7 @@
     "static/media/pengaduan_admin.png": "/portofolio/static/media/pengaduan_admin.d02ec08ec14ab0f0cc03.png",
     "static/media/dashboard_admin.png": "/portofolio/static/media/dashboard_admin.5345658358c7cb0974cd.png",
     "static/media/php.png": "/portofolio/static/media/php.b0fca25e119a0007df95.png",
+    "static/media/user-smp.png": "/portofolio/static/media/user-smp.70d31255134f50a04604.png",
     "static/media/tas-admin.png": "/portofolio/static/media/tas-admin.872eea6c7ce01d02eacf.png",
     "static/media/dashboard_user_pengaduan.png": "/portofolio/static/media/dashboard_user_pengaduan.9e9628ced50d54a5a23d.png",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portofolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
@@ -36,6 +37,7 @@
     "static/media/greencity-admin-gaji-3.png": "/portofolio/static/media/greencity-admin-gaji-3.e9530a6b4a2d41eb629a.png",
     "static/media/css.png": "/portofolio/static/media/css.9f33c557b92e4e2e1cc8.png",
     "static/media/greencity-admin-plainning.png": "/portofolio/static/media/greencity-admin-plainning.49110d598a15fea08814.png",
+    "static/media/admin-smp.png": "/portofolio/static/media/admin-smp.9fb4f3c74713e3e12134.png",
     "static/media/cbt-guru.png": "/portofolio/static/media/cbt-guru.b662cf7cedf9ef5796b7.png",
     "static/media/eazyDoc-admin-dashboard.png": "/portofolio/static/media/eazyDoc-admin-dashboard.00e8a726fafe18c4ddc2.png",
     "static/media/greencity-admin-dashboard.png": "/portofolio/static/media/greencity-admin-dashboard.51749979872e05aab8b3.png",
@@ -46,13 +48,14 @@
     "static/media/login-desa.png": "/portofolio/static/media/login-desa.dd3478c50e72081c7883.png",
     "static/media/git.png": "/portofolio/static/media/git.dfdd0989ffe0184bdd68.png",
     "static/media/react.png": "/portofolio/static/media/react.d32b912d40b3d8821e47.png",
+    "static/media/login-smp.png": "/portofolio/static/media/login-smp.634a8bd4fda304703116.png",
     "index.html": "/portofolio/index.html",
     "main.6b0c7956.css.map": "/portofolio/static/css/main.6b0c7956.css.map",
-    "main.61744dd0.js.map": "/portofolio/static/js/main.61744dd0.js.map",
+    "main.91b9a94b.js.map": "/portofolio/static/js/main.91b9a94b.js.map",
     "787.b7af92ad.chunk.js.map": "/portofolio/static/js/787.b7af92ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6b0c7956.css",
-    "static/js/main.61744dd0.js"
+    "static/js/main.91b9a94b.js"
   ]
 }
