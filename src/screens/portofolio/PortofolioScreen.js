@@ -11,6 +11,7 @@ const App = () => {
     const  [isViewerKhinezOpen,setIsViewerKhinezOpen] = useState(false);
     const  [isViewerGreencityOpen,setIsViewerGreencityOpen] = useState(false);
     const  [isViewerDocOpen,setIsViewerDocOpen] = useState(false);
+    const  [isViewerSchoolOpen,setIsViewerSchoolOpen] = useState(false);
 
     const images_cbt = [
         require("../../assets/images/portofolio/cbt-admin.png"),
@@ -62,6 +63,12 @@ const App = () => {
         require("../../assets/images/portofolio/eazyDoc-employee-notif.png"),
     ];
 
+    const images_school = [
+        require("../../assets/images/portofolio/login-smp.png"),
+        require("../../assets/images/portofolio/admin-smp.png"),
+        require("../../assets/images/portofolio/user-smp.png"),
+    ];
+
     const openImageCbtViewer = () => {
         setIsViewerCbtOpen(true);
     }
@@ -110,6 +117,14 @@ const App = () => {
         setIsViewerDocOpen(false);
     }
 
+    const openImageSchoolViewer = () => {
+        setIsViewerSchoolOpen(true);
+    }
+
+    const closeImageSchoolViewer = () => {
+        setIsViewerSchoolOpen(false);
+    }
+
     return (
         <>
             <div className="portofolio">
@@ -143,6 +158,33 @@ const App = () => {
                                                 src={images_cbt}
                                                 currentIndex={0}
                                                 onClose={() => closeImageCbtViewer()}
+                                                disableScroll={false}
+                                                backgroundStyle={{
+                                                    backgroundColor : "rgba(0,0,0,0.9)"
+                                                }}
+                                                closeOnClickOutside={true}
+                                            />
+                                        )}
+                                    </div>
+                                </div>
+                                <div className="col-md-4 portofolio-container mb-2">
+                                    <div className="card">
+                                        <img 
+                                            className="card-img-top" 
+                                            src={require("../../assets/images/portofolio/admin-smp.png")}
+                                            alt="WEB SCHOOL PROFILE"
+                                            onClick={() => openImageSchoolViewer()}
+                                            
+                                        />
+                                        <div className="card-body">
+                                            <p className="card-title text-center">WEB SCHOOL PROFILE</p>
+                                            <p className="card-text">Website ini merupakan website profil sekolah</p>
+                                        </div>
+                                        {isViewerSchoolOpen && (
+                                            <ImageViewer
+                                                src={images_school}
+                                                currentIndex={0}
+                                                onClose={() => closeImageSchoolViewer()}
                                                 disableScroll={false}
                                                 backgroundStyle={{
                                                     backgroundColor : "rgba(0,0,0,0.9)"
@@ -287,6 +329,7 @@ const App = () => {
                                         )}
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </div>
