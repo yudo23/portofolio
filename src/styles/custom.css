@@ -269,6 +269,14 @@ ul.navbar-nav{
     font-weight: 500;
     position: relative;
     border-bottom: 1px solid transparent;
+    margin-bottom : 0px;
+}
+
+.portofolio-content .portofolio-container .card .framework{
+    font-size : 16px;
+    color :#f0860c;
+    margin-bottom : 0px;
+    font-style: italic;
 }
 
 .portofolio-content .portofolio-container .card .card-text{
@@ -485,6 +493,10 @@ animation-delay:3s;
 
     .about-content .skill .card .card-title{
         font-size: 20px;
+    }
+
+    .portofolio-content .portofolio-container .card .framework{
+        font-size: 16px;
     }
 
     .footer .row{
