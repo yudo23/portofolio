@@ -267,34 +267,6 @@ const App = () => {
                                     <div className="card">
                                         <img 
                                             className="card-img-top" 
-                                            src={require("../../assets/images/portofolio/olshop-product.png")}
-                                            alt="WEBSITE SIMPLE OLSHOP"
-                                            onClick={() => openImageOlshopViewer()}
-                                            
-                                        />
-                                        <div className="card-body">
-                                            <p className="card-title text-center">SIMPLE OLSHOP</p>
-                                            <p className="text-center framework"><small>Laravel</small></p>
-                                            <p className="card-text">Website ini merupakan website toko online sederhana . Terdiri dari halaman online shop dan halaman adminya . Terdapat fitur kategori produk , produk , faq , resi , rekening bank , sosmed , testimonial , inbox , banner home dan setting website</p>
-                                        </div>
-                                        {isViewerOlshopOpen && (
-                                            <ImageViewer
-                                                src={images_olshop}
-                                                currentIndex={0}
-                                                onClose={() => closeImageOlshopViewer()}
-                                                disableScroll={false}
-                                                backgroundStyle={{
-                                                    backgroundColor : "rgba(0,0,0,0.9)"
-                                                }}
-                                                closeOnClickOutside={true}
-                                            />
-                                        )}
-                                    </div>
-                                </div>
-                                <div className="col-md-4 portofolio-container mb-2">
-                                    <div className="card">
-                                        <img 
-                                            className="card-img-top" 
                                             src={require("../../assets/images/portofolio/bumdes-bumdes-dashboard.png")}
                                             alt="BUMDES"
                                             onClick={() => openImageBumdesViewer()}
@@ -338,6 +310,34 @@ const App = () => {
                                                 src={images_pengaduan}
                                                 currentIndex={0}
                                                 onClose={() => closeImagePengaduanViewer()}
+                                                disableScroll={false}
+                                                backgroundStyle={{
+                                                    backgroundColor : "rgba(0,0,0,0.9)"
+                                                }}
+                                                closeOnClickOutside={true}
+                                            />
+                                        )}
+                                    </div>
+                                </div>
+                                <div className="col-md-4 portofolio-container mb-2">
+                                    <div className="card">
+                                        <img 
+                                            className="card-img-top" 
+                                            src={require("../../assets/images/portofolio/olshop-product.png")}
+                                            alt="WEBSITE SIMPLE OLSHOP"
+                                            onClick={() => openImageOlshopViewer()}
+                                            
+                                        />
+                                        <div className="card-body">
+                                            <p className="card-title text-center">SIMPLE OLSHOP</p>
+                                            <p className="text-center framework"><small>Laravel</small></p>
+                                            <p className="card-text">Website ini merupakan website toko online sederhana . Terdiri dari halaman online shop dan halaman adminya . Terdapat fitur kategori produk , produk , faq , resi , rekening bank , sosmed , testimonial , inbox , banner home dan setting website</p>
+                                        </div>
+                                        {isViewerOlshopOpen && (
+                                            <ImageViewer
+                                                src={images_olshop}
+                                                currentIndex={0}
+                                                onClose={() => closeImageOlshopViewer()}
                                                 disableScroll={false}
                                                 backgroundStyle={{
                                                     backgroundColor : "rgba(0,0,0,0.9)"
