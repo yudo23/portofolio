@@ -217,7 +217,7 @@ const App = () => {
                                             
                                         />
                                         <div className="card-body">
-                                            <p className="card-title text-center">WEBSITE MANAGEMENT KEGIATAN PERUSAHAAN</p>
+                                            <p className="card-title text-center">MANAGEMENT KEGIATAN PERUSAHAAN</p>
                                             <p className="text-center framework"><small>Laravel</small></p>
                                             <p className="card-text">Website ini merupakan website management kegiatan disuatu perusahaan dan sudah dipakai oleh PT. GREENCITI TEKNOLOGI INDONESIA . Terdiri dari fitur manajemen plainning , kasbon , permintaan barang , dan penggajian . Terdiri dari beberapa role yaitu employee,purchasing,manager,general manager,direktur,owner, dan administrator</p>
                                         </div>
@@ -240,12 +240,12 @@ const App = () => {
                                         <img 
                                             className="card-img-top" 
                                             src={require("../../assets/images/portofolio/eazyDoc-admin-dashboard.png")}
-                                            alt="WEBSITE PENGIRIMAN DOKUMEN ANTAR INSTANSI"
+                                            alt="WEBSITE PENGIRIMAN DOKUMEN"
                                             onClick={() => openImageDocViewer()}
                                             
                                         />
                                         <div className="card-body">
-                                            <p className="card-title text-center">WEBSITE PENGIRIMAN DOKUMEN ANTAR INSTANSI</p>
+                                            <p className="card-title text-center">PENGIRIMAN DOKUMEN</p>
                                             <p className="text-center framework"><small>Laravel</small></p>
                                             <p className="card-text">Website ini merupakan website pengiriman dokumen antar instansi . Terdiri dari beberapa role yaitu administrator dan employee . Terdapat fitur department , subdepartment , employee , document , user dan system log</p>
                                         </div>
@@ -273,7 +273,7 @@ const App = () => {
                                             
                                         />
                                         <div className="card-body">
-                                            <p className="card-title text-center">WEBSITE SIMPLE OLSHOP</p>
+                                            <p className="card-title text-center">SIMPLE OLSHOP</p>
                                             <p className="text-center framework"><small>Laravel</small></p>
                                             <p className="card-text">Website ini merupakan website toko online sederhana . Terdiri dari halaman online shop dan halaman adminya . Terdapat fitur kategori produk , produk , faq , resi , rekening bank , sosmed , testimonial , inbox , banner home dan setting website</p>
                                         </div>
@@ -329,7 +329,7 @@ const App = () => {
                                             
                                         />
                                         <div className="card-body">
-                                            <p className="card-title text-center">WEB PENGADUAN MASYARAKAT</p>
+                                            <p className="card-title text-center">PENGADUAN MASYARAKAT</p>
                                             <p className="text-center framework"><small>Laravel</small></p>
                                             <p className="card-text">Website ini merupakan website pengaduan untuk menghubungkan perangkat desa dengan masyarakatnya . Website ini terdiri dari 3 role yaitu administrator,perangkat desa,dan masyarakat . Selain fitur pengaduan juga terdapat fitur pengelolaan dana masuk dan dana keluar yang dapat dilihat di akun user masyarakat</p>
                                         </div>
@@ -357,7 +357,7 @@ const App = () => {
                                             
                                         />
                                         <div className="card-body">
-                                            <p className="card-title text-center">WEB CBT SMK</p>
+                                            <p className="card-title text-center">CBT SMK</p>
                                             <p className="text-center framework"><small>Codeigniter 3</small></p>
                                             <p className="card-text">Website ini merupakan website untuk membantu guru dalam pelaksanaan ujian berbasis online.Website ini terdari dari 3 role yaitu administrator,guru,siswa . Siswa memasukkan token yang telah dibuat guru sebelum memulai ujian</p>
                                         </div>
@@ -385,7 +385,7 @@ const App = () => {
                                             
                                         />
                                         <div className="card-body">
-                                            <p className="card-title text-center">WEB SCHOOL PROFIL</p>
+                                            <p className="card-title text-center">SCHOOL PROFIL</p>
                                             <p className="text-center framework"><small>Codeigniter 3</small></p>
                                             <p className="card-text">Website ini merupakan website profil sekolah . Website ini terdiri dari fitur blog , guru , pengumuman , agenda , download , galeri , informasi PPDB, dan pengaturan website</p>
                                         </div>
@@ -413,7 +413,7 @@ const App = () => {
                                             
                                         />
                                         <div className="card-body">
-                                            <p className="card-title text-center">WEB TOKO ONLINE</p>
+                                            <p className="card-title text-center">TOKO ONLINE</p>
                                             <p className="text-center framework"><small>Codeigniter 3</small></p>
                                             <p className="card-text">Website ini merupakan website toko online . Web ini sudah menggunakan API rajaongkir untuk mendapatkan ongkir secara otomatis</p>
                                         </div>

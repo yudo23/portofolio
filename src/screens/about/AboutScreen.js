@@ -66,7 +66,7 @@ const App = () => {
                                 <div className="col-lg-6 skill">
                                     <p className="title mb-5">Kemampuan</p>
                                     <div className="row">
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/html.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -74,7 +74,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/css.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -82,7 +82,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/js.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -90,7 +90,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/bootstrap.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -98,7 +98,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/jquery.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -106,7 +106,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/php.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -114,7 +114,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/mysql.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -122,7 +122,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/codeigniter.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -130,7 +130,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/laravel.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -138,7 +138,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/react.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -146,7 +146,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/react-native.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -154,7 +154,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/node.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -162,7 +162,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/api.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -170,7 +170,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/github.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
@@ -178,7 +178,7 @@ const App = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                        <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
                                             <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/git.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
