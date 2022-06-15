@@ -160,13 +160,14 @@ ul.navbar-nav{
 }
 
 .about-content .pendidikan .icon{
-    background-color: #f0860c;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 15px;
-    padding-left: 15px;
+    background-color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
     border-radius: 50px;
-    color: white;
+    color: #f0860c;
+    border : 2px solid #f0860c;
 }
 
 .about-content .pendidikan .icon:hover{
@@ -190,13 +191,14 @@ ul.navbar-nav{
 }
 
 .about-content .pengalaman .icon{
-    background-color: #f0860c;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 15px;
-    padding-left: 15px;
+    background-color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
     border-radius: 50px;
-    color: white;
+    color: #f0860c;
+    border : 2px solid #f0860c;
 }
 
 .contact-info{

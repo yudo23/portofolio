@@ -164,6 +164,14 @@ const App = () => {
                                         </div>
                                         <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
                                             <div className="card">
+                                                <img className="card-img-top" src={require("../../assets/images/skill/api.png")} alt="Card image cap"/>
+                                                <div className="card-body text-center">
+                                                    <h7 className="card-title">REST API</h7>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-3 col-sm-4 col-xs-2 mb-2">
+                                            <div className="card">
                                                 <img className="card-img-top" src={require("../../assets/images/skill/github.png")} alt="Card image cap"/>
                                                 <div className="card-body text-center">
                                                     <h7 className="card-title">GITHUB</h7>
