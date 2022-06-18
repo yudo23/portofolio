@@ -47,17 +47,17 @@ const App = () => {
                                 <div className="col-lg-6 pendidikan">
                                     <p className="title mb-5">Pendidikan</p>
                                     <div className="pendidikan-container">
-                                       <p>
-                                            <i className="fa fa-university icon"></i> TK TAMBAKASRI 01 <span className="lulus">(LULUS)</span>
-                                       </p>
-                                       <p>
-                                            <i className="fa fa-university icon"></i> SDN TAMBAKASRI 01 <span className="lulus">(LULUS)</span>
+                                        <p>
+                                            <i className="fa fa-university icon"></i> UNIVERSITAS NEGERI MALANG <span className="lulus">(2021 - Sekarang)</span>
                                        </p>
                                        <p>
                                             <i className="fa fa-university icon"></i> SMKN 04 MALANG - RPL <span className="lulus">(LULUS 2020)</span>
                                        </p>
                                        <p>
-                                            <i className="fa fa-university icon"></i> UNIVERSITAS NEGERI MALANG <span className="lulus">(2021 - Sekarang)</span>
+                                            <i className="fa fa-university icon"></i> SDN TAMBAKASRI 01 <span className="lulus">(LULUS)</span>
+                                       </p>
+                                       <p>
+                                            <i className="fa fa-university icon"></i> TK TAMBAKASRI 01 <span className="lulus">(LULUS)</span>
                                        </p>
                                     </div>
                                 </div>
@@ -192,14 +192,18 @@ const App = () => {
                                     <p className="title mb-5">Pengalaman Kerja</p>
                                     <div className="pengalaman-container">
                                        <p>
-                                            <i className="fa fa-building icon"></i><b> Laravel Programmer</b> - PT FINTEK MODALMU BERSATU  <span className="tahun">(Bandung , 18 Agustus 2020 – 18 September 2020)</span>
+                                            <i className="fa fa-building icon"></i><b> Web and Mobile Programmer</b> - Freelance <span className="tahun">(Malang , Sekarang)</span>
                                        </p>
                                        <p>
                                             <i className="fa fa-building icon"></i><b> Laravel Programmer</b> - PT VOKASI INDONESIA SEJAHTERA <span className="tahun">(Malang ,29 September 2020 – 31 Mei 2021)</span>
                                        </p>
                                        <p>
-                                            <i className="fa fa-building icon"></i><b> Web and Mobile Programmer</b> - Freelance <span className="tahun">(Malang , Sekarang)</span>
+                                            <i className="fa fa-building icon"></i><b> Laravel Programmer</b> - PT FINTEK MODALMU BERSATU  <span className="tahun">(Bandung , 18 Agustus 2020 – 18 September 2020)</span>
                                        </p>
+                                       <p>
+                                            <i className="fa fa-building icon"></i><b> Backend Programmer</b> - PT Universal Big Data  <span className="tahun">(Malang , 28 November 2018 – 16 Juni 2019)</span>
+                                       </p>
+                                       
                                     </div>
                                 </div>
                             </div>
