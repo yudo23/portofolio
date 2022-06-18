@@ -23,7 +23,7 @@ const App = () => {
                             </div>
                             <div className="detail">
                                 <p>
-                                    <i className="fa fa-whatsapp icon"></i> 089506383344 (Phone)
+                                    <i className="fa fa-phone icon"></i> 089506383344 (Phone)
                                 </p>
                             </div>
                             <div className="detail">
