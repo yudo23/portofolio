@@ -198,7 +198,7 @@ const App = () => {
                                             <i className="fa fa-building icon"></i><b> Laravel Programmer</b> - PT VOKASI INDONESIA SEJAHTERA <span className="tahun">(Malang ,29 September 2020 – 31 Mei 2021)</span>
                                        </p>
                                        <p>
-                                            <i className="fa fa-building icon"></i><b> Web Programmer</b> - Freelance <span className="tahun">(Malang , Sekarang)</span>
+                                            <i className="fa fa-building icon"></i><b> Web and Mobile Programmer</b> - Freelance <span className="tahun">(Malang , Sekarang)</span>
                                        </p>
                                     </div>
                                 </div>
