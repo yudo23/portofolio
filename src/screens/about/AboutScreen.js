@@ -29,7 +29,7 @@ const App = () => {
                                     </div>
                                     <div className="biodata-container">
                                         <p className="biodata-name">Tempat , Tanggal Lahir</p>
-                                        <p className="biodata-value">29 September 2001</p>
+                                        <p className="biodata-value">Depok, 29 September 2001</p>
                                     </div>
                                     <div className="biodata-container">
                                         <p className="biodata-name">Status</p>
