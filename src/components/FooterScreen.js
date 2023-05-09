@@ -16,7 +16,7 @@ const App = () => {
                             <a href='https://api.whatsapp.com/send/?phone=6289506383344&text&app_absent=0' className='footer-icon whatsapp' target="_blank">
                             <i className='fa fa-whatsapp'></i>
                             </a>
-                            <a href='https://www.instagram.com/yudo_dendy' className='footer-icon instagram' target="_blank">
+                            <a href='https://www.instagram.com/youu.do' className='footer-icon instagram' target="_blank">
                             <i className='fa fa-instagram'></i>
                             </a>
                             <a href='https://t.me/yudo_23' className='footer-icon telegram' target="_blank">
