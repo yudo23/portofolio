@@ -13,7 +13,7 @@ const App = () => {
                     <div className='col-lg-2 footer-right'>
                         <p className="footer-title">Follow Me</p>
                         <div className='footer-icon-container'>
-                            <a href='https://api.whatsapp.com/send/?phone=6285769782106&text&app_absent=0' className='footer-icon whatsapp' target="_blank">
+                            <a href='https://api.whatsapp.com/send/?phone=6289506383344&text&app_absent=0' className='footer-icon whatsapp' target="_blank">
                             <i className='fa fa-whatsapp'></i>
                             </a>
                             <a href='https://www.instagram.com/yudo_dendy' className='footer-icon instagram' target="_blank">
