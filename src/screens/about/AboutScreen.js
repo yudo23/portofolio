@@ -192,7 +192,7 @@ const App = () => {
                                     <p className="title mb-5">Pengalaman Kerja</p>
                                     <div className="pengalaman-container">
                                        <p>
-                                            <i className="fa fa-building icon"></i><b> Web Programmer</b> - Freelance <span className="tahun">(Malang , Sekarang)</span>
+                                            <i className="fa fa-building icon"></i><b> Web and Mobile Programmer</b> - Freelance <span className="tahun">(Malang , Sekarang)</span>
                                        </p>
                                        <p>
                                             <i className="fa fa-building icon"></i><b> Laravel Programmer</b> - PT VOKASI INDONESIA SEJAHTERA <span className="tahun">(Malang ,10 Juli 2022 – 06 April 2023)</span>
