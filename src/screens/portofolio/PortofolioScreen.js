@@ -14,6 +14,7 @@ const App = () => {
     const  [isViewerSchoolOpen,setIsViewerSchoolOpen] = useState(false);
     const  [isViewerOlshopOpen,setIsViewerOlshopOpen] = useState(false);
     const  [isViewerBumdesOpen,setIsViewerBumdesOpen] = useState(false);
+    const  [isViewerInventoriesOpen,setIsViewerInventoriesOpen] = useState(false);
 
     const images_cbt = [
         require("../../assets/images/portofolio/cbt-admin.png"),
@@ -92,6 +93,15 @@ const App = () => {
         require("../../assets/images/portofolio/bumdes-bumdes-struktur.png"),
     ];
 
+    const images_inventories = [
+        require("../../assets/images/portofolio/inventories-2.jpg"),
+        require("../../assets/images/portofolio/inventories-1.jpg"),
+        require("../../assets/images/portofolio/inventories-6.jpg"),
+        require("../../assets/images/portofolio/inventories-3.jpg"),
+        require("../../assets/images/portofolio/inventories-4.jpg"),
+        require("../../assets/images/portofolio/inventories-5.jpg"),
+    ];
+
     const openImageCbtViewer = () => {
         setIsViewerCbtOpen(true);
     }
@@ -164,6 +174,14 @@ const App = () => {
         setIsViewerBumdesOpen(false);
     }
 
+    const openImageInventoriesViewer = () => {
+        setIsViewerInventoriesOpen(true);
+    }
+
+    const closeImageInventoriesViewer = () => {
+        setIsViewerInventoriesOpen(false);
+    }
+
     return (
         <>
             <div className="portofolio">
@@ -179,6 +197,34 @@ const App = () => {
                     <div className="row">
                         <div className="col-12 portofolio-content">
                             <div className="row">
+                            <div className="col-md-4 portofolio-container mb-2">
+                                    <div className="card">
+                                        <img 
+                                            className="card-img-top" 
+                                            src={require("../../assets/images/portofolio/inventories-2.jpg")}
+                                            alt="INVENTORIES"
+                                            onClick={() => openImageInventoriesViewer()}
+                                            
+                                        />
+                                        <div className="card-body">
+                                            <p className="card-title text-center">INVENTORIES</p>
+                                            <p className="text-center framework"><small>Laravel</small></p>
+                                            <p className="card-text">Website ini merupakan website pembukuan barang . Terdiri dari fitur login, lupa password,  data barang , inventories kelas, master data , pengaturan website</p>
+                                        </div>
+                                        {isViewerInventoriesOpen && (
+                                            <ImageViewer
+                                                src={images_inventories}
+                                                currentIndex={0}
+                                                onClose={() => closeImageInventoriesViewer()}
+                                                disableScroll={false}
+                                                backgroundStyle={{
+                                                    backgroundColor : "rgba(0,0,0,0.9)"
+                                                }}
+                                                closeOnClickOutside={true}
+                                            />
+                                        )}
+                                    </div>
+                                </div>
                                 <div className="col-md-4 portofolio-container mb-2">
                                     <div className="card">
                                         <img 

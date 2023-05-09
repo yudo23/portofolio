@@ -36,8 +36,8 @@ const App = () => {
                                         <p className="biodata-value">Belum Menikah</p>
                                     </div>
                                     <div className="biodata-container">
-                                        <p className="biodata-name">No.Telepon</p>
-                                        <p className="biodata-value">085769782106</p>
+                                        <p className="biodata-name">Whatsapp</p>
+                                        <p className="biodata-value">089506383344</p>
                                     </div>
                                     <div className="biodata-container">
                                         <p className="biodata-name">Alamat</p>
@@ -193,6 +193,9 @@ const App = () => {
                                     <div className="pengalaman-container">
                                        <p>
                                             <i className="fa fa-building icon"></i><b> Web and Mobile Programmer</b> - Freelance <span className="tahun">(Malang , Sekarang)</span>
+                                       </p>
+                                       <p>
+                                            <i className="fa fa-building icon"></i><b> Laravel Programmer</b> - PT VOKASI INDONESIA SEJAHTERA <span className="tahun">(Malang ,10 Juli 2022 – 06 April 2023)</span>
                                        </p>
                                        <p>
                                             <i className="fa fa-building icon"></i><b> Laravel Programmer</b> - PT VOKASI INDONESIA SEJAHTERA <span className="tahun">(Malang ,29 September 2020 – 31 Mei 2021)</span>
