@@ -192,19 +192,13 @@ const App = () => {
                                     <p className="title mb-5">Pengalaman Kerja</p>
                                     <div className="pengalaman-container">
                                        <p>
-                                            <i className="fa fa-building icon"></i><b> Web and Mobile Programmer</b> - Freelance <span className="tahun">(Malang , Sekarang)</span>
+                                            <i className="fa fa-building icon"></i><b> Web Developer</b> - PT VOKASI INDONESIA SEJAHTERA <span className="tahun">(Malang ,10 Juli 2022 – 29 Desember 2023)</span>
                                        </p>
                                        <p>
-                                            <i className="fa fa-building icon"></i><b> Laravel Programmer</b> - PT VOKASI INDONESIA SEJAHTERA <span className="tahun">(Malang ,10 Juli 2022 – 06 April 2023)</span>
+                                            <i className="fa fa-building icon"></i><b> Web Developer</b> - PT VOKASI INDONESIA SEJAHTERA <span className="tahun">(Malang ,29 September 2020 – 31 Mei 2021)</span>
                                        </p>
                                        <p>
-                                            <i className="fa fa-building icon"></i><b> Laravel Programmer</b> - PT VOKASI INDONESIA SEJAHTERA <span className="tahun">(Malang ,29 September 2020 – 31 Mei 2021)</span>
-                                       </p>
-                                       <p>
-                                            <i className="fa fa-building icon"></i><b> Laravel Programmer</b> - PT FINTEK MODALMU BERSATU  <span className="tahun">(Bandung , 18 Agustus 2020 – 18 September 2020)</span>
-                                       </p>
-                                       <p>
-                                            <i className="fa fa-building icon"></i><b> Backend Programmer</b> - PT Universal Big Data  <span className="tahun">(Malang , 28 November 2018 – 16 Juni 2019)</span>
+                                            <i className="fa fa-building icon"></i><b> Magang Backend Programmer</b> - PT Universal Big Data  <span className="tahun">(Malang , 28 November 2018 – 16 Juni 2019)</span>
                                        </p>
                                        
                                     </div>
