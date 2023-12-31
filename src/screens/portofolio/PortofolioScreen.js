@@ -505,7 +505,7 @@ const App = () => {
                                         <div className="card-body">
                                             <p className="card-title text-center">INVENTORIES</p>
                                             <p className="text-center framework"><small>Laravel</small></p>
-                                            <p className="card-text text-center">Website ini merupakan website pembukuan barang . Terdiri dari fitur login, lupa password,  data barang , inventories kelas, master data , pengaturan website</p>
+                                            <p className="card-text text-center">Website ini merupakan website pembukuan barang . Terdiri dari fitur login, lupa password,  data barang , inventories kelas, master data , pengaturan website. Untuk mempercepat proses pembukuan, disediakan fitur import dari excel</p>
                                         </div>
                                         {isViewerInventoriesOpen && (
                                             <ImageViewer
