@@ -79,7 +79,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/html.png")}
-                          alt="Card image cap"
+                          alt="HTML"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">HTML</h7>
@@ -91,7 +91,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/css.png")}
-                          alt="Card image cap"
+                          alt="CSS"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">CSS</h7>
@@ -103,7 +103,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/js.png")}
-                          alt="Card image cap"
+                          alt="JAVASCRIPT"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">JAVASCRIPT</h7>
@@ -115,7 +115,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/bootstrap.png")}
-                          alt="Card image cap"
+                          alt="BOOTSTRAP"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">BOOTSTRAP</h7>
@@ -127,7 +127,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/jquery.png")}
-                          alt="Card image cap"
+                          alt="JQUERY"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">JQUERY</h7>
@@ -139,7 +139,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/php.png")}
-                          alt="Card image cap"
+                          alt="PHP"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">PHP</h7>
@@ -151,7 +151,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/mysql.png")}
-                          alt="Card image cap"
+                          alt="MYSQL"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">MYSQL</h7>
@@ -163,10 +163,10 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/codeigniter.png")}
-                          alt="Card image cap"
+                          alt="CODEIGNITER 3"
                         />
                         <div className="card-body text-center">
-                          <h7 className="card-title">Codeigniter 3</h7>
+                          <h7 className="card-title">CODEIGNITER 3</h7>
                         </div>
                       </div>
                     </div>
@@ -175,7 +175,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/laravel.png")}
-                          alt="Card image cap"
+                          alt="LARAVEL"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">LARAVEL</h7>
@@ -187,7 +187,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/react.png")}
-                          alt="Card image cap"
+                          alt="REACT JS"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">REACT JS</h7>
@@ -198,8 +198,20 @@ const App = () => {
                       <div className="card">
                         <img
                           className="card-img-top"
+                          src={require("../../assets/images/skill/next-js.png")}
+                          alt="NEXT JS"
+                        />
+                        <div className="card-body text-center">
+                          <h7 className="card-title">NEXT JS</h7>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-3 col-sm-4 col-xs-12 mb-2">
+                      <div className="card">
+                        <img
+                          className="card-img-top"
                           src={require("../../assets/images/skill/react-native.png")}
-                          alt="Card image cap"
+                          alt="REACT NATIVE"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">REACT NATIVE</h7>
@@ -211,7 +223,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/node.png")}
-                          alt="Card image cap"
+                          alt="NODE JS"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">NODE JS</h7>
@@ -223,7 +235,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/api.png")}
-                          alt="Card image cap"
+                          alt="REST API"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">REST API</h7>
@@ -235,7 +247,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/github.png")}
-                          alt="Card image cap"
+                          alt="GITHUB"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">GITHUB</h7>
@@ -247,7 +259,7 @@ const App = () => {
                         <img
                           className="card-img-top"
                           src={require("../../assets/images/skill/git.png")}
-                          alt="Card image cap"
+                          alt="GIT"
                         />
                         <div className="card-body text-center">
                           <h7 className="card-title">GIT</h7>
