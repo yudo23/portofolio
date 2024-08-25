@@ -263,7 +263,7 @@ const App = () => {
                       <i className="fa fa-building icon"></i>
                       <b> Web Developer</b> - Freelance{" "}
                       <span className="tahun">
-                        (30 Desember 2023 – Sekarang)
+                        (Januari 2024 – Sekarang)
                       </span>
                     </p>
                     <p>
