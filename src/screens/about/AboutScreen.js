@@ -11,7 +11,7 @@ const App = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 about-info">
-              <p>About Me</p>
+              <p>ABOUT ME</p>
             </div>
           </div>
           <div className="row">

@@ -382,7 +382,7 @@ const App = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 portofolio-info">
-              <p>Portofolio</p>
+              <p>PORTOFOLIO</p>
             </div>
           </div>
           <div className="row">
