@@ -406,7 +406,7 @@ const App = () => {
                         memiliki fitur yaitu Ruangan , Reservasi, Pengeluaran,
                         Laporan, SDM, Akuntansi, Laporan, dan Pengaturan. Web
                         ini terintegrasi dengan payment gateway Stripe, Paypal,
-                        dan Paypal. Web ini juga terintegrasi dengan Push
+                        dan Midtrans. Web ini juga terintegrasi dengan Push
                         Notification dan Whatsapp Gateway. Web ini merupakan versi kompleks dari Booking Engine
                       </p>
                     </div>
@@ -442,7 +442,7 @@ const App = () => {
                         memiliki fitur yaitu Ruangan , Reservasi,
                         Laporan, Akuntansi, dan Pengaturan. Web
                         ini terintegrasi dengan payment gateway Stripe, Paypal,
-                        dan Paypal. Web ini hampir sama dengan Billin namun dibuat dengan Laravel saja dan fitur-fiturnya lebih sederhana
+                        dan Midtrans. Web ini hampir sama dengan Billin namun dibuat dengan Laravel saja dan fitur-fiturnya lebih sederhana
                       </p>
                     </div>
                     {isViewerBookingEngineOpen && (
