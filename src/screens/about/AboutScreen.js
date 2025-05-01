@@ -18,7 +18,7 @@ const App = () => {
             <div className="col-12 about-content">
               <div className="row">
                 <div className="col-lg-6 biodata">
-                  <p className="title mb-5">Biodata</p>
+                  <p className="title mb-5">About Me</p>
                   <div className="biodata-container">
                     <p className="biodata-name">Nama Lengkap</p>
                     <p className="biodata-value">Yudo Dendy Andriansyah</p>
@@ -37,7 +37,7 @@ const App = () => {
                   </div>
                   <div className="biodata-container">
                     <p className="biodata-name">Whatsapp</p>
-                    <p className="biodata-value">089506383344</p>
+                    <p className="biodata-value"><a href='https://api.whatsapp.com/send/?phone=6289506383344&text&app_absent=0' target="_blank">089506383344</a></p>
                   </div>
                   <div className="biodata-container">
                     <p className="biodata-name">Alamat</p>
@@ -48,16 +48,19 @@ const App = () => {
                   </div>
                 </div>
                 <div className="col-lg-6 pendidikan">
-                  <p className="title mb-5">Pendidikan</p>
+                  <p className="title mb-5">Education</p>
                   <div className="pendidikan-container">
                     <p>
-                      <i className="fa fa-university icon"></i> UNIVERSITAS
-                      NEGERI MALANG{" "}
-                      <span className="lulus">(2021 - Sekarang)</span>
+                      <i className="fa fa-university icon"></i> UNIVERSITAS NEGERI MALANG{" "}
+                      <span className="lulus">(2021 - 2025)</span>
                     </p>
                     <p>
                       <i className="fa fa-university icon"></i> SMKN 04 MALANG -
-                      RPL <span className="lulus">(LULUS 2020)</span>
+                      RPL <span className="lulus">(LULUS)</span>
+                    </p>
+                    <p>
+                      <i className="fa fa-university icon"></i> SMPN 01 BULULAWANG
+                      01 <span className="lulus">(LULUS)</span>
                     </p>
                     <p>
                       <i className="fa fa-university icon"></i> SDN TAMBAKASRI

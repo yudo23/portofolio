@@ -149,10 +149,15 @@ ul.navbar-nav{
 }
 
 .about-content .biodata-value{
-    margin-left: 50px;
+    margin-left: 20px;
     font-weight: 500;
     font-size: 16px;
     text-transform: uppercase;
+}
+
+.about-content .biodata-value a{
+    text-decoration: none;
+    color: black;
 }
 
 .about-content .pendidikan-container p{

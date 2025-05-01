@@ -27,7 +27,7 @@ const App = () => {
                             <div className="big-title">
                                 <p className="big-title-hello">Hello , </p>
                                 <p className="big-title-name">I'am Yudo Dendy Andriansyah</p>
-                                <p className="big-title-hello">WEB DEVELOPER</p>
+                                <p className="big-title-hello" style={{textTransform:"none"}}>Software Developer | Programmer</p>
                                 <p className="big-title-experience">Work experience of more than 3 years</p>
                                 <div className="d-flex align-item-center mt-3 big-btn">
                                     <Link className="btn-custom-primary" to="/about">

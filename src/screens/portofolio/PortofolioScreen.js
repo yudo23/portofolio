@@ -24,6 +24,10 @@ const App = () => {
   const [isViewerBillinOpen, setIsViewerBillinOpen] = useState(false);
   const [isViewerBookingEngineOpen, setIsViewerBookingEngineOpen] =
     useState(false);
+  const [isViewerDayanaFoodOpen, setIsViewerDayanaFoodOpen] = useState(false);
+  const [isViewerAuraUmrahOpen, setIsViewerAuraUmrahOpen] = useState(false);
+  const [isViewerMzposOpen, setIsViewerMzposOpen] = useState(false);
+  const [isViewerSatharOpen, setIsViewerSatharOpen] = useState(false);
 
   const images_sitirta = [
     require("../../assets/images/portofolio/Sitirta/Cek Tagihan.png"),
@@ -253,6 +257,95 @@ const App = () => {
     require("../../assets/images/portofolio/Booking-Engine/setting-template-notification.png"),
   ];
 
+  const images_dayana_food = [
+    require("../../assets/images/portofolio/Dayana Food/0.png"),
+    require("../../assets/images/portofolio/Dayana Food/1.png"),
+    require("../../assets/images/portofolio/Dayana Food/2.png"),
+    require("../../assets/images/portofolio/Dayana Food/3.png"),
+    require("../../assets/images/portofolio/Dayana Food/4.png"),
+    require("../../assets/images/portofolio/Dayana Food/5.png"),
+    require("../../assets/images/portofolio/Dayana Food/6.png"),
+    require("../../assets/images/portofolio/Dayana Food/7.png"),
+    require("../../assets/images/portofolio/Dayana Food/8.png"),
+    require("../../assets/images/portofolio/Dayana Food/9.png"),
+    require("../../assets/images/portofolio/Dayana Food/10.png"),
+    require("../../assets/images/portofolio/Dayana Food/11.png"),
+    require("../../assets/images/portofolio/Dayana Food/12.png"),
+    require("../../assets/images/portofolio/Dayana Food/13.png"),
+    require("../../assets/images/portofolio/Dayana Food/14.png"),
+    require("../../assets/images/portofolio/Dayana Food/15.png"),
+    require("../../assets/images/portofolio/Dayana Food/16.png"),
+    require("../../assets/images/portofolio/Dayana Food/17.png"),
+    require("../../assets/images/portofolio/Dayana Food/18.png"),
+    require("../../assets/images/portofolio/Dayana Food/19.png"),
+    require("../../assets/images/portofolio/Dayana Food/20.png"),
+    require("../../assets/images/portofolio/Dayana Food/21.png"),
+  ];
+
+  const images_aura_umrah = [
+    require("../../assets/images/portofolio/Aura Umrah/0.png"),
+    require("../../assets/images/portofolio/Aura Umrah/1.png"),
+    require("../../assets/images/portofolio/Aura Umrah/2.png"),
+    require("../../assets/images/portofolio/Aura Umrah/3.png"),
+    require("../../assets/images/portofolio/Aura Umrah/4.png"),
+    require("../../assets/images/portofolio/Aura Umrah/5.png"),
+    require("../../assets/images/portofolio/Aura Umrah/6.png"),
+    require("../../assets/images/portofolio/Aura Umrah/7.png"),
+    require("../../assets/images/portofolio/Aura Umrah/8.png"),
+    require("../../assets/images/portofolio/Aura Umrah/9.png"),
+    require("../../assets/images/portofolio/Aura Umrah/10.png"),
+    require("../../assets/images/portofolio/Aura Umrah/11.png"),
+    require("../../assets/images/portofolio/Aura Umrah/12.png"),
+    require("../../assets/images/portofolio/Aura Umrah/13.png"),
+    require("../../assets/images/portofolio/Aura Umrah/14.png"),
+    require("../../assets/images/portofolio/Aura Umrah/15.png"),
+    require("../../assets/images/portofolio/Aura Umrah/16.png"),
+    require("../../assets/images/portofolio/Aura Umrah/17.png"),
+    require("../../assets/images/portofolio/Aura Umrah/18.png"),
+    require("../../assets/images/portofolio/Aura Umrah/19.png"),
+  ];
+
+  const images_mzpos = [
+    require("../../assets/images/portofolio/MZPOS/0.jpg"),
+    require("../../assets/images/portofolio/MZPOS/1.jpg"),
+    require("../../assets/images/portofolio/MZPOS/2.jpg"),
+    require("../../assets/images/portofolio/MZPOS/3.jpg"),
+    require("../../assets/images/portofolio/MZPOS/4.jpg"),
+    require("../../assets/images/portofolio/MZPOS/5.jpg"),
+    require("../../assets/images/portofolio/MZPOS/6.jpg"),
+    require("../../assets/images/portofolio/MZPOS/7.jpg"),
+    require("../../assets/images/portofolio/MZPOS/8.jpg"),
+    require("../../assets/images/portofolio/MZPOS/9.jpg"),
+    require("../../assets/images/portofolio/MZPOS/10.jpg"),
+    require("../../assets/images/portofolio/MZPOS/11.jpg"),
+    require("../../assets/images/portofolio/MZPOS/12.png"),
+    require("../../assets/images/portofolio/MZPOS/13.png"),
+    require("../../assets/images/portofolio/MZPOS/14.png"),
+    require("../../assets/images/portofolio/MZPOS/15.png"),
+    require("../../assets/images/portofolio/MZPOS/16.png"),
+    require("../../assets/images/portofolio/MZPOS/17.png"),
+    require("../../assets/images/portofolio/MZPOS/18.png"),
+    require("../../assets/images/portofolio/MZPOS/19.png"),
+  ];
+
+  const images_sathar = [
+    require("../../assets/images/portofolio/Sathar32/0.png"),
+    require("../../assets/images/portofolio/Sathar32/1.png"),
+    require("../../assets/images/portofolio/Sathar32/2.png"),
+    require("../../assets/images/portofolio/Sathar32/3.png"),
+    require("../../assets/images/portofolio/Sathar32/4.png"),
+    require("../../assets/images/portofolio/Sathar32/5.png"),
+    require("../../assets/images/portofolio/Sathar32/6.png"),
+    require("../../assets/images/portofolio/Sathar32/7.png"),
+    require("../../assets/images/portofolio/Sathar32/8.png"),
+    require("../../assets/images/portofolio/Sathar32/9.png"),
+    require("../../assets/images/portofolio/Sathar32/10.png"),
+    require("../../assets/images/portofolio/Sathar32/11.png"),
+    require("../../assets/images/portofolio/Sathar32/12.png"),
+    require("../../assets/images/portofolio/Sathar32/13.png"),
+    require("../../assets/images/portofolio/Sathar32/14.png"),
+  ];
+
   const openImageSitirtaViewer = () => {
     setIsViewerSitirtaOpen(true);
   };
@@ -373,6 +466,38 @@ const App = () => {
     setIsViewerBookingEngineOpen(false);
   };
 
+  const openImageDayanaFoodViewer = () => {
+    setIsViewerDayanaFoodOpen(true);
+  };
+
+  const closeImageDayanaFoodViewer = () => {
+    setIsViewerDayanaFoodOpen(false);
+  };
+
+  const openImageAuraUmrahViewer = () => {
+    setIsViewerAuraUmrahOpen(true);
+  };
+
+  const closeImageAuraUmrahViewer = () => {
+    setIsViewerAuraUmrahOpen(false);
+  };
+
+  const openImageMzposViewer = () => {
+    setIsViewerMzposOpen(true);
+  };
+
+  const closeImageMzposViewer = () => {
+    setIsViewerMzposOpen(false);
+  };
+
+  const openImageSatharViewer = () => {
+    setIsViewerSatharOpen(true);
+  };
+
+  const closeImageSatharViewer = () => {
+    setIsViewerSatharOpen(false);
+  };
+
   return (
     <>
       <div className="portofolio">
@@ -402,12 +527,13 @@ const App = () => {
                         <small>Next JS (Frontend) & Laravel (Backend)</small>
                       </p>
                       <p className="card-text text-center">
-                        Billin merupakan sebuah website Booking Hotel yang sudah PWA. Web ini
-                        memiliki fitur yaitu Ruangan , Reservasi, Pengeluaran,
-                        Laporan, SDM, Akuntansi, Laporan, dan Pengaturan. Web
-                        ini terintegrasi dengan payment gateway Stripe, Paypal,
-                        dan Midtrans. Web ini juga terintegrasi dengan Push
-                        Notification dan Whatsapp Gateway. Web ini merupakan versi kompleks dari Booking Engine
+                        Billin is a hotel booking website that has PWA. This
+                        website has features such as Rooms, Reservations,
+                        Expenses, Reports, HR, Accounting, Reports, and
+                        Settings. This website is integrated with Stripe,
+                        Paypal, and Midtrans payment gateways. It is also
+                        integrated with Push Notification and Whatsapp Gateway.
+                        This web is a complex version of Booking Engine
                       </p>
                     </div>
                     {isViewerBillinOpen && (
@@ -438,11 +564,12 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Booking Engine merupakan sebuah website Booking Hotel. Web ini
-                        memiliki fitur yaitu Ruangan , Reservasi,
-                        Laporan, Akuntansi, dan Pengaturan. Web
-                        ini terintegrasi dengan payment gateway Stripe, Paypal,
-                        dan Midtrans. Web ini hampir sama dengan Billin namun dibuat dengan Laravel saja dan fitur-fiturnya lebih sederhana
+                        Booking Engine is a hotel booking website. This website
+                        has features such as Rooms, Reservations, Reports,
+                        Accounting, and Settings. This website is integrated
+                        with Stripe, Paypal, and Midtrans payment gateways. This
+                        web is almost the same as Billin but made with Laravel
+                        only and its features are simpler.
                       </p>
                     </div>
                     {isViewerBookingEngineOpen && (
@@ -450,6 +577,154 @@ const App = () => {
                         src={images_booking_engine}
                         currentIndex={0}
                         onClose={() => closeImageBookingEngineViewer()}
+                        disableScroll={false}
+                        backgroundStyle={{
+                          backgroundColor: "rgba(0,0,0,0.9)",
+                        }}
+                        closeOnClickOutside={true}
+                      />
+                    )}
+                  </div>
+                </div>
+                <div className="col-md-4 portofolio-container mb-2">
+                  <div className="card">
+                    <img
+                      className="card-img-top"
+                      src={require("../../assets/images/portofolio/Dayana Food/1.png")}
+                      alt="Dayana Food"
+                      onClick={() => openImageDayanaFoodViewer()}
+                    />
+                    <div className="card-body">
+                      <p className="card-title text-center">Dayana Food</p>
+                      <p className="text-center framework">
+                        <small>Laravel</small>
+                      </p>
+                      <p className="card-text text-center">
+                        Dayana Food is a company-owned e-commerce site in
+                        Singapore for online sales of food products. It features
+                        a product catalog, shopping cart, order tracking, and a
+                        dashboard to monitor orders. The system also supports
+                        purchase orders, shopping recommendations to suppliers,
+                        sales reports, and integrates with WhatsApp Gateway for
+                        notifications and direct communication.
+                      </p>
+                    </div>
+                    {isViewerDayanaFoodOpen && (
+                      <ImageViewer
+                        src={images_dayana_food}
+                        currentIndex={0}
+                        onClose={() => closeImageDayanaFoodViewer()}
+                        disableScroll={false}
+                        backgroundStyle={{
+                          backgroundColor: "rgba(0,0,0,0.9)",
+                        }}
+                        closeOnClickOutside={true}
+                      />
+                    )}
+                  </div>
+                </div>
+                <div className="col-md-4 portofolio-container mb-2">
+                  <div className="card">
+                    <img
+                      className="card-img-top"
+                      src={require("../../assets/images/portofolio/Aura Umrah/1.png")}
+                      alt="Aura Umrah"
+                      onClick={() => openImageAuraUmrahViewer()}
+                    />
+                    <div className="card-body">
+                      <p className="card-title text-center">Aura Umrah</p>
+                      <p className="text-center framework">
+                        <small>Laravel</small>
+                      </p>
+                      <p className="card-text text-center">
+                        Aura Umrah is a travel service website that provides
+                        information and registration for Umrah and Hajj
+                        programs. The site is designed to make it easier for
+                        companies to manage pilgrim data, arrange departure
+                        schedules, organize service packages, and monitor
+                        administration efficiently through an integrated
+                        dashboard.
+                      </p>
+                    </div>
+                    {isViewerAuraUmrahOpen && (
+                      <ImageViewer
+                        src={images_aura_umrah}
+                        currentIndex={0}
+                        onClose={() => closeImageAuraUmrahViewer()}
+                        disableScroll={false}
+                        backgroundStyle={{
+                          backgroundColor: "rgba(0,0,0,0.9)",
+                        }}
+                        closeOnClickOutside={true}
+                      />
+                    )}
+                  </div>
+                </div>
+                <div className="col-md-4 portofolio-container mb-2">
+                  <div className="card">
+                    <img
+                      className="card-img-top"
+                      src={require("../../assets/images/portofolio/MZPOS/12.png")}
+                      alt="MZPOS"
+                      onClick={() => openImageMzposViewer()}
+                    />
+                    <div className="card-body">
+                      <p className="card-title text-center">MZPOS</p>
+                      <p className="text-center framework">
+                        <small>
+                          React Native (Mobile) & Laravel (Web + API)
+                        </small>
+                      </p>
+                      <p className="card-text text-center">
+                        MZPOS is a Point of Sale (POS) system available in
+                        mobile and web versions, designed to facilitate the
+                        management of sales transactions, stock items, and
+                        financial reports. Equipped with a user-friendly cashier
+                        interface, product management, and real-time transaction
+                        recording. MZPOS also supports integration with receipt
+                        printers and monthly sales reports.
+                      </p>
+                    </div>
+                    {isViewerMzposOpen && (
+                      <ImageViewer
+                        src={images_mzpos}
+                        currentIndex={0}
+                        onClose={() => closeImageMzposViewer()}
+                        disableScroll={false}
+                        backgroundStyle={{
+                          backgroundColor: "rgba(0,0,0,0.9)",
+                        }}
+                        closeOnClickOutside={true}
+                      />
+                    )}
+                  </div>
+                </div>
+                <div className="col-md-4 portofolio-container mb-2">
+                  <div className="card">
+                    <img
+                      className="card-img-top"
+                      src={require("../../assets/images/portofolio/Sathar32/1.png")}
+                      alt="Sathar"
+                      onClick={() => openImageSatharViewer()}
+                    />
+                    <div className="card-body">
+                      <p className="card-title text-center">Sathar32</p>
+                      <p className="text-center framework">
+                        <small>Laravel</small>
+                      </p>
+                      <p className="card-text text-center">
+                        Sathar32 is a web platform that makes maintenance
+                        monitoring easy. Equipped with status tracking, task
+                        scheduling, and inventory management features, Sathar32
+                        allows users to monitor progress in real-time and
+                        generate reports to support decision-making.
+                      </p>
+                    </div>
+                    {isViewerSatharOpen && (
+                      <ImageViewer
+                        src={images_sathar}
+                        currentIndex={0}
+                        onClose={() => closeImageSatharViewer()}
                         disableScroll={false}
                         backgroundStyle={{
                           backgroundColor: "rgba(0,0,0,0.9)",
@@ -473,12 +748,13 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Sitirta merupakan website yang digunakan oleh pengusaha
-                        air minum (HIPAM) dalam mengelola tagihan pelanggan
-                        perbulannya . Disediakan fitur import data pelanggan dan
-                        import data tagihan perbulannya tanpa harus menginput
-                        satu persatu . Selain itu terdapat fitur laporan tagihan
-                        dan tunggakan
+                        Sitirta is a website used by drinking water
+                        entrepreneurs (HIPAM) in managing monthly customer
+                        bills. bills per month. It provides features to import
+                        customer data and import monthly billing data without
+                        having to input one by one. one by one. In addition,
+                        there is a billing report feature and arrears report
+                        features
                       </p>
                     </div>
                     {isViewerSitirtaOpen && (
@@ -509,11 +785,10 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Website ini digunakan untuk mengelola data produk dan
-                        pesanan yang terintegrasi dengan akun penjual di Shopee
-                        dan Lazada. Pengguna dapat mengelola menambahkan /
-                        mengubah data produk dan langsung terhubung dengan
-                        Shopee dan Lazada
+                        This website is used to manage product and order data
+                        that is integrated with seller accounts at Shopee and
+                        Lazada. Users can manage add/change product data and
+                        directly connect with Shopee and Lazada.
                       </p>
                     </div>
                     {isViewerMultiecommerceOpen && (
@@ -546,11 +821,11 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Bhillneka merupakan website untuk mengelola penjualan.
-                        Pada web ini terintegrasi dengan mikrotik , payment
-                        gateway Doku dan notifikasi whatsapp sebagai pengingat
-                        tempo pembayaran. Selain untuk mikrotik, sistem pos ini
-                        dapat digunakan untuk produk seperti FNB
+                        Bhillneka is a website for managing sales. On this web,
+                        it is integrated with proxy, payment gateway Doku and
+                        whatsapp notification as a reminder of the payment
+                        payment due date. In addition to mikrotik, this postal
+                        system can be used for products such as FNB
                       </p>
                     </div>
                     {isViewerPosOpen && (
@@ -583,13 +858,13 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Website ini merupakan sistem informasi untuk mengelola
-                        data keputusan bersama , pernjanjian kerjasama, dan
-                        rencana aksi. Pengguna dapat melihat statistik berupa
-                        Donut Chart untuk melihat jumlah yang sudah tanda tangan
-                        dan yang belum. Sistem ini memiliki role pengguna
-                        Gubernur, Biro Pemerintahan, Sekretaris Daerah,dan
-                        Kepala Dinas.
+                        This website is an information system for managing data
+                        on joint decisions, cooperation agreements, and action
+                        plans. Users can view statistics in the form of Donut
+                        Chart to see the number of those who have signed and
+                        those who have not. This system has user roles of
+                        Governor, Government Bureau, Regional Secretary, and
+                        Head of Service.
                       </p>
                     </div>
                     {isViewerProgressPemerintahanOpen && (
@@ -622,12 +897,13 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Website ini merupakan sistem informasi yang digunakan
-                        untuk mengelola data simpatisan dan alumni dari pondok
-                        pesantren Nurul Cholil.Alumni dan simpatisan dapat
-                        daftar secara mandiri maupun didaftarkan. Sistem ini
-                        terintegrasi dengan whatsapp gateway. Selain versi
-                        webnya, juga terdapat versi mobilenya juga.
+                        This website is an information system used to manage the
+                        data of sympathizers and alumni of the Nurul Cholil
+                        Nurul Cholil Islamic boarding school.alumni and
+                        sympathizers can register independently or registered.
+                        This system integrated with whatsapp gateway. In
+                        addition to the web version, there is also a mobile
+                        version as well.
                       </p>
                     </div>
                     {isViewerHisanOpen && (
@@ -658,10 +934,10 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Website ini merupakan web yang digunakan brand LZDeamour
-                        untuk mengelola data pelanggan dan pesanan. Selain itu
-                        terdapat laporan untuk melihat rekap transaksi dari
-                        pembelian produk LZDeamour ini
+                        This website is a web that is used by the LZDeamour
+                        brand to manage customer and order data. In addition
+                        there is a report to see a recap of transactions from
+                        purchase of this LZDeamour product
                       </p>
                     </div>
                     {isViewerLZDeamourOpen && (
@@ -692,11 +968,11 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Website ini merupakan website pembukuan barang . Terdiri
-                        dari fitur login, lupa password, data barang ,
-                        inventories kelas, master data , pengaturan website.
-                        Untuk mempercepat proses pembukuan, disediakan fitur
-                        import dari excel
+                        This website is a goods bookkeeping website. Consists of
+                        login features, forgot password, item data, class
+                        inventories, master data, website settings. To speed up
+                        the bookkeeping process, a feature is provided import
+                        from excel
                       </p>
                     </div>
                     {isViewerInventoriesOpen && (
@@ -729,10 +1005,9 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Website ini merupakan website company profile yang
-                        sekarang sudah dipakai oleh CV. MITRA TECHNOSAINS .
-                        Website ini terdiri dari tampilan company profile nya
-                        dan juga halaman admin
+                        This website is a company profile website that now used
+                        by CV. MITRA TECHNOSAINS. This website consists of a
+                        company profile display and also the admin page
                       </p>
                     </div>
                     {isViewerKhinezOpen && (
@@ -765,13 +1040,13 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Website ini merupakan website management kegiatan
-                        disuatu perusahaan dan sudah dipakai oleh PT. GREENCITI
-                        TEKNOLOGI INDONESIA . Terdiri dari fitur manajemen
-                        plainning , kasbon , permintaan barang , dan penggajian
-                        . Terdiri dari beberapa role yaitu
-                        employee,purchasing,manager,general
-                        manager,direktur,owner, dan administrator
+                        This website is an activity management website
+                        activities in a company and has been used by PT.
+                        GREENCITI INDONESIA TECHNOLOGY. Consists of management
+                        features management features: plainning, cashbills,
+                        goods requests, and payroll. . Consists of several
+                        roles, namely employee, purchasing, manager, general
+                        manager, director, owner, and administrator
                       </p>
                     </div>
                     {isViewerGreencityOpen && (
@@ -804,10 +1079,10 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Website ini merupakan website pengiriman dokumen antar
-                        instansi . Terdiri dari beberapa role yaitu
-                        administrator dan employee . Terdapat fitur department ,
-                        subdepartment , employee , document , user dan system
+                        This website is a document delivery website between
+                        agency. Consists of several roles, namely administrator
+                        and employee. There are department features,
+                        subdepartment, employee, document, user and system log.
                         log
                       </p>
                     </div>
@@ -839,11 +1114,10 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Website ini merupakan website Badan Usaha Milik Desa
-                        yang bertujuan untuk mengelola usaha dan guna memenuhi
-                        kebutuhan masyarakatnya . Terdapat fitur profil desa ,
-                        struktur desa , tabungan , tagihan , kredit dan
-                        publikasi
+                        This website is a Village-Owned Enterprise website which
+                        aims to manage businesses and to meet the needs of the
+                        community. There is a village profile feature, village
+                        structure, savings, bills, credit and publications
                       </p>
                     </div>
                     {isViewerBumdesOpen && (
@@ -876,13 +1150,13 @@ const App = () => {
                         <small>Laravel</small>
                       </p>
                       <p className="card-text text-center">
-                        Website ini merupakan website pengaduan untuk
-                        menghubungkan perangkat desa dengan masyarakatnya .
-                        Website ini terdiri dari 3 role yaitu
-                        administrator,perangkat desa,dan masyarakat . Selain
-                        fitur pengaduan juga terdapat fitur pengelolaan dana
-                        masuk dan dana keluar yang dapat dilihat di akun user
-                        masyarakat
+                        This website is a complaint website to connect village
+                        officials with the community. This website consists of 3
+                        roles, namely administrators, village officials, and the
+                        community. In addition to the complaint feature, there
+                        is also a feature of managing incoming funds and
+                        outgoing funds that can be seen in the community user
+                        account.
                       </p>
                     </div>
                     {isViewerPengaduanOpen && (
@@ -890,40 +1164,6 @@ const App = () => {
                         src={images_pengaduan}
                         currentIndex={0}
                         onClose={() => closeImagePengaduanViewer()}
-                        disableScroll={false}
-                        backgroundStyle={{
-                          backgroundColor: "rgba(0,0,0,0.9)",
-                        }}
-                        closeOnClickOutside={true}
-                      />
-                    )}
-                  </div>
-                </div>
-                <div className="col-md-4 portofolio-container mb-2">
-                  <div className="card">
-                    <img
-                      className="card-img-top"
-                      src={require("../../assets/images/portofolio/admin-smp.png")}
-                      alt="WEB SCHOOL PROFILE"
-                      onClick={() => openImageSchoolViewer()}
-                    />
-                    <div className="card-body">
-                      <p className="card-title text-center">SCHOOL PROFIL</p>
-                      <p className="text-center framework">
-                        <small>Codeigniter 3</small>
-                      </p>
-                      <p className="card-text text-center">
-                        Website ini merupakan website profil sekolah . Website
-                        ini terdiri dari fitur blog , guru , pengumuman , agenda
-                        , download , galeri , informasi PPDB, dan pengaturan
-                        website
-                      </p>
-                    </div>
-                    {isViewerSchoolOpen && (
-                      <ImageViewer
-                        src={images_school}
-                        currentIndex={0}
-                        onClose={() => closeImageSchoolViewer()}
                         disableScroll={false}
                         backgroundStyle={{
                           backgroundColor: "rgba(0,0,0,0.9)",
