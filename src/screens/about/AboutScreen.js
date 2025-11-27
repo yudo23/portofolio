@@ -42,8 +42,7 @@ const App = () => {
                   <div className="biodata-container">
                     <p className="biodata-name">Alamat</p>
                     <p className="biodata-value">
-                      Jln.Klengkeng RT02 RW02 , Desa Tambakasri , Kec.Tajinan ,
-                      Kab.Malang , 65172
+                      Malang, Jawa Timur
                     </p>
                   </div>
                 </div>

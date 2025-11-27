@@ -18,7 +18,7 @@ const App = () => {
                         <div className="col-12 contact-content">
                             <div className="detail">
                                 <p>
-                                    <i className="fa fa-home icon"></i> Malang
+                                    <i className="fa fa-home icon"></i> Malang, Jawa Timur
                                 </p>
                             </div>
                             <div className="detail">
