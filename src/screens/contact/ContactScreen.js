@@ -18,7 +18,7 @@ const App = () => {
                         <div className="col-12 contact-content">
                             <div className="detail">
                                 <p>
-                                    <i className="fa fa-home icon"></i> Jln.Klengkeng RT02 RW02 , Desa Tambakasri , Kec.Tajinan , Kab.Malang , 65172
+                                    <i className="fa fa-home icon"></i> Malang
                                 </p>
                             </div>
                             <div className="detail">
