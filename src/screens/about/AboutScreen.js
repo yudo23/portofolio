@@ -59,7 +59,7 @@ const App = () => {
                     </p>
                     <p>
                       <i className="fa fa-university icon"></i> SMPN 01 BULULAWANG
-                      01 <span className="lulus">(LULUS)</span>
+                       <span className="lulus">(LULUS)</span>
                     </p>
                     <p>
                       <i className="fa fa-university icon"></i> SDN TAMBAKASRI
